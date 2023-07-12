@@ -16,6 +16,8 @@ var keepRunning = true;
 
 var imageHandlers = GetImageHandlers(totalCount);
 
+
+
 WebClient webClient = new WebClient();
 
 using HttpClient httpClient = new()
